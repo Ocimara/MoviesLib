@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
-    <device id="retina5_9" orientation="portrait">
+    <device id="retina4_0" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
@@ -17,11 +17,11 @@
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="MovieViewController" customModule="MoviesLib" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qa4-sy-pux">
-                                <rect key="frame" x="153" y="80.666666666666671" width="70" height="70.000000000000014"/>
+                                <rect key="frame" x="125.5" y="80.5" width="70" height="70"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="70" id="MDd-3M-sL9"/>
                                     <constraint firstAttribute="width" secondItem="Qa4-sy-pux" secondAttribute="height" multiplier="1:1" id="w12-xV-DGu"/>
@@ -29,18 +29,18 @@
                                 <state key="normal" backgroundImage="play"/>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="gradient" translatesAutoresizingMaskIntoConstraints="NO" id="ZPq-iG-EEf">
-                                <rect key="frame" x="0.0" y="170" width="375" height="60"/>
+                                <rect key="frame" x="0.0" y="170" width="320" height="60"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="60" id="SIz-Je-lxZ"/>
                                 </constraints>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Logan" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8At-yr-658">
-                                <rect key="frame" x="16" y="234" width="343" height="33.666666666666686"/>
+                                <rect key="frame" x="16" y="234" width="288" height="33.5"/>
                                 <fontDescription key="fontDescription" type="system" weight="medium" pointSize="28"/>
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text=" 2h 17min" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Jt4-oH-Tdt">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text=" 2h 17min" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Jt4-oH-Tdt">
                                 <rect key="frame" x="297" y="272" width="62" height="21"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="21" id="Has-cE-4BF"/>
@@ -50,7 +50,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="⭐️ 8.7/10" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qU8-yH-LT9">
-                                <rect key="frame" x="15.999999999999996" y="296.66666666666669" width="63.666666666666657" height="21"/>
+                                <rect key="frame" x="16" y="296.5" width="63.5" height="21"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="21" id="152-Tv-Puy"/>
                                 </constraints>
@@ -59,10 +59,10 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="QxK-ZM-7IG">
-                                <rect key="frame" x="0.0" y="325.66666666666674" width="375" height="486.33333333333326"/>
+                                <rect key="frame" x="0.0" y="325.5" width="320" height="242.5"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Sinopse" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Mqr-Vo-k6i">
-                                        <rect key="frame" x="16" y="9" width="351" height="21"/>
+                                        <rect key="frame" x="16" y="9" width="296" height="21"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="21" id="XUv-Ck-wmh"/>
                                         </constraints>
@@ -75,7 +75,7 @@
                                         </variation>
                                     </label>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="azx-6d-eB6">
-                                        <rect key="frame" x="12" y="38" width="351" height="428.33333333333331"/>
+                                        <rect key="frame" x="12" y="38" width="296" height="184.5"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <string key="text">In the near future, a weary Logan cares for an ailing Professor X in a hide out on the Mexican border. But Logan's attempts to hide from the world and his legacy are up-ended when a young mutant arrives, being pursued by dark forces.</string>
                                         <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
@@ -124,7 +124,7 @@
                                 </variation>
                             </view>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logan-wide" translatesAutoresizingMaskIntoConstraints="NO" id="WqK-0L-c24">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="230"/>
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="230"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="230" id="eTu-hh-6mf">
                                         <variation key="heightClass=compact" constant="200"/>
@@ -132,7 +132,7 @@
                                 </constraints>
                                 <variation key="heightClass=compact" image="madmax-poster"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ação | Drama | Sci-Fi" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="G1h-jB-QLH">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Ação | Drama | Sci-Fi" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="G1h-jB-QLH">
                                 <rect key="frame" x="16" y="272" width="136.66666666666666" height="21"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="21" id="k0I-Sv-3CP"/>
